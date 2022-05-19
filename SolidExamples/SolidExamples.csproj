@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="1-S\" />
+    <Folder Include="2-O\" />
+    <Folder Include="3-L\" />
+    <Folder Include="4-I\" />
+    <Folder Include="5-D\" />
+  </ItemGroup>
+
+</Project>
