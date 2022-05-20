@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace SolidExamples._3_L.Right
 {
-    public abstract class VehicleOk
+    public abstract class IVehicleOk
     {
-        public int Position { get; set; }
-
         public abstract void GoForward(int velocity);
     }
 }

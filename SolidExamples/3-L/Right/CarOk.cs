@@ -2,7 +2,7 @@
 
 namespace SolidExamples._3_L.Right
 {
-    public class CarOk : VehicleOk
+    public class CarOk : IVehicleOk
     {
         public override void GoForward(int velocity)
         {
@@ -10,8 +10,10 @@ namespace SolidExamples._3_L.Right
             {
                 throw new Exception("Out of Bounds");
             }
-
-            Position += velocity;
+            else
+            {
+                Console.WriteLine("Advancing {0}km", velocity);
+            }
         }
     }
 }

@@ -10,8 +10,10 @@ namespace SolidExamples._3_L.Wrong
             {
                 throw new Exception("Out of Bounds");
             }
-
-            Position += velocity;
+            else
+            {
+                Console.WriteLine("Advancing {0}km", velocity);
+            }
         }
     }
 }
